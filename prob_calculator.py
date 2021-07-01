@@ -19,9 +19,6 @@ class Hat:
             drawn.append(removed)
         return drawn
 
-
-
-
 def experiment(hat, expected_balls, num_drawn, num_experiments):
     if num_drawn > hat.num_balls: num_drawn = hat.num_balls
     experiments = []
